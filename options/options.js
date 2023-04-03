@@ -44,7 +44,7 @@ function restore_options() {
   chrome.storage.sync.get({
 	// Default values
     FileName: 'credentials',
-    ApplySessionDuration: 'yes',
+    ApplySessionDuration: 'no',
 	RoleArns: {}
   }, function(items) {
 	// Set filename
