@@ -16,7 +16,9 @@
   "background": {
     "service_worker": "background/script.js"
   },
-  "options_page": "options/options.html",
+  "options_ui": {
+    "page": "options/options.html"
+  },
   "permissions": [
     "webRequest",
     "storage",
